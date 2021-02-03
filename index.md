@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+## Welcome to Witchcraft Code
 
-You can use the [editor on GitHub](https://github.com/tom2662/witchtestphp.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Here we will help the villagers to get nice witch programs based on php
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### code blocks
 
-### Markdown
+# main
+ 1. input from user
+ 2. calculate function call
+ 3. display the result
+ 
+# library
+ 1. KillAverage function => calculate average rate
+ 2. KillSpell function => calculate  kill of the year
+ 3. Mantra  function => inner loop calculation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Rule
 
-# Header 1
-## Header 2
-### Header 3
+The witch ...
+On the 1st year she kills 1 villager
+On the 2nd year she kills 1 + 1 = 2 villagers
+On the 3rd year she kills 1 + 1 + 2 = 4 villagers
+On the 4th year she kills 1 + 1 + 2 + 3 = 7 villagers
+On the 5th year she kills 1 + 1 + 2 + 3 + 5 = 12 villagers
+And so on..
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+If given two people whose age of death and year of death are known, find the average number of people the witch killed on year of birth of those people
+Example:
+Given:Person A: Age of death = 10, Year of Death = 12
+Person B: Age of death = 13, Year of Death = 17
+Answer:Person A born on Year = 12 –10 = 2, number of people killed on year 2 is 2.
+Person B born on Year = 17 –13 = 4, number of people killed on year 4 is 7.
+So the average is ( 7 + 2 )/2 = 4.5
+If you giveinvalid data (i.e. negative age, person who born before the witch took control) the program should return -1
 
-**Bold** and _Italic_ and `Code` text
+###
+How to run :
+ - deploy to web server
+ - input all input
+ - view the result
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tom2662/witchtestphp.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+###
+Source code
+<a href="https://github.com/tom2662/witchtestphp.github.io/tree/main" target="_blank">click here</a>
